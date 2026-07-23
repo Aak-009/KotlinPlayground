@@ -1,8 +1,13 @@
 package basics
-fun main() {
+fun main() { // entry point in the program
     val a : Int = 5
-    println(a)
+    // in val , value cant be reassigned
 
-    var name : String = "Kotlin"
-    println(name)
+    var b : Int = 12333 // in var value can be reassigned
+    println(b)
+
+    b = 33321
+    println(b)
+
+
 }
